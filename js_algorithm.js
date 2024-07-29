@@ -1,7 +1,20 @@
+// Input: nums = [null, {}, 3]
+// Output: 3
+// Explanation: Calling nums.last() should return the last element: 3.
+// Array.prototype.last = function () {
+//   if (this.length === 0) {
+//     return -1;
+//   }
+//   return this[this.length - 1];
+// };
+
+// const arr = [1, 2, 3];
+// console.log(arr.last());
+
 // Write a function that accepts an array of 10 integers (between 0 and 9),
 // that returns a string of those numbers in the form of a phone number.
 // createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
-function createPhoneNumber(numbers) {}
+// function createPhoneNumber(numbers) {}
 
 /*
 // vazifa 1 (create a function to give funny names for people's names)
